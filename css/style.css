@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ ul {
+    list-style: none;
+}
+
+.container {
+   margin: auto;
+   width:80%
+}
+
+.header{
+    overflow: hidden;
+    padding:20px 0px;
+    position:fixed;
+    z-index: 15;
+    width:100%
+ }
+
+ .logo {
+    float: left;
+    width: 50%;
+ }
+
+ .nav-bar{
+    float:left;
+    width: 50%;
+    text-align: right;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    margin: 0px 15px;  
+}
+
+.logo p{
+    font-size: 25px;
+    font-family:cursive;
+    color:rgba(255, 255, 255, 0.7);
+    font-weight :700px;
+    text-transform: capitalize;
+}
+
+.nav-bar ul li a {
+   font-size: 15px;
+    font-family:cursive;
+    color:rgba(255, 255, 255, 0.7);
+    font-weight :800px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover {
+    color:rgb(255, 255, 255);
+ }
+
+.home{
+    background-image: url(../backGround.jpg);
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: 0 -65px;
+}
+
+.home-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family:MerriweatherSans;
+    border:6px solid #f4623a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.home-content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size:35px ;
+    margin:15px 0px;
+ }
+ .home-content p{
+    color: white;
+    text-transform: capitalize;
+    font-size:20px ;
+
+ }
+
+ 
+.about, .about-program , .contact{
+    background-color: #f4623a;
+    padding: 120px 0px;
+    font-family: cursive;
+ }
+
+ .about-program{
+   background-color:#FFF8DC;
+ }
+
+ .contact{
+   background-color: white;
+ }
+
+ 
+
+ .about-content, .about-program-content ,.contant-items{
+    text-align: center;
+    font-family:cursive;
+ }
+
+ .about-content h2 , .about-program-content h2{
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+ }
+
+ .about-content p , .about-program-content h2 {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.7);
+ }
+
+ .about-program-content h2 , .about-program-content h2 {
+    color: black;
+ }
+ 
+.contant-information div{
+    float: left;
+    width:50%;
+    text-align:center;
+    margin: 20px 0px;
+ }
+ 
+ .contant-information div i {
+    display: block;
+    margin: 20px 0px;
+ }
+ 
+ .contant-information-mobile a{
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .contant-information-email a{
+    color: #f4623a;
+    text-decoration: none;
+ } 
+ 
+ .contant-information-email a:hover{
+    text-decoration:underline;
+ }
+
+
+ .footer{
+   text-align: center;
+   padding: 50px 0px;
+   background-color: #f8f9fa;;
+}
+
+.footer p{
+   font-family: MerriweatherSans;
+   color: rgba(0, 0, 0, 0.5);
+   text-transform: capitalize;
+}
